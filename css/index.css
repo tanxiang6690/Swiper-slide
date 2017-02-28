@@ -1,0 +1,78 @@
+/* style1 */
+
+.swiper-style-1 {
+    width: 990px;
+    height: 510px;
+}
+
+.swiper-style-1 .swiper-button-prev,
+.swiper-style-1 .swiper-button-next {
+    margin-top: -34px;
+    width: 48px;
+    height: 68px;
+}
+
+.swiper-style-1 .swiper-button-prev {
+    background: url(../img/pre.png);
+    left: 5px;
+}
+
+.swiper-style-1 .swiper-button-next {
+    background-image: url(../img/next.png);
+    right: 5px;
+}
+
+.swiper-style-1 .pagination {
+    bottom: 18px;
+}
+
+.swiper-style-1 .pagination .swiper-pagination-switch,
+.swiper-style-2 .pagination .swiper-pagination-switch {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    background-color: #666;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, .3);
+}
+
+.swiper-style-1 .pagination .swiper-pagination-switch:hover,
+.swiper-style-2 .pagination .swiper-pagination-switch:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.swiper-style-1 .pagination .swiper-active-switch,
+.swiper-style-2 .pagination .swiper-active-switch {
+    background: #fff;
+    cursor: default;
+}
+
+.swiper-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+/* style2 */
+
+.swiper-style-2 {
+    width: 490px;
+    height: 375px;
+}
+
+.swiper-style-2 .swiper-button-prev,
+.swiper-style-2 .swiper-button-next {
+    margin-top: -25px;
+    width: 20px;
+    height: 50px;
+}
+
+.swiper-style-2 .swiper-button-prev {
+    background: url(../img/animation-pre.png);
+}
+
+.swiper-style-2 .swiper-button-next {
+    background-image: url(../img/animation-next.png);
+}
